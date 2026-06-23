@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>Intracker — Insurance Investment Insights</title>
+  <meta name="description" content="Intracker helps bankers, insurers, and asset managers explore insurer fixed-income portfolios and identify demand patterns for debt issuance." />
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/svg+xml" href="assets/intracker-fav.svg" />
+  <link rel="alternate icon" href="assets/favicon.ico" />
+
+  <!-- Open Graph / Twitter -->
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Intracker — Fixed-income intelligence for capital markets" />
+  <meta property="og:description" content="Explore insurer fixed-income portfolios and identify demand patterns for debt issuance." />
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="Intracker — Fixed-income intelligence for capital markets" />
+  <meta name="twitter:description" content="Explore insurer fixed-income portfolios and identify demand patterns for debt issuance." />
+
+  <link rel="stylesheet" href="styles.css" />
+
+  <!-- Google Analytics (GA4) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-79LE8JR12J"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-79LE8JR12J');
+  </script>
+</head>
+<body>
+  <main class="container">
+    <header class="hero">
+      <img class="logo" src="assets/intracker-logo-light.svg" alt="Intracker" width="220" />
+      <h1>Intelligence for capital markets</h1>
+    </header>
+
+    <form class="card" action="https://formspree.io/f/mjgqkllr" method="POST">
+      <h2>Request a demo</h2>
+
+      <input type="hidden" name="_subject" value="New demo request — Intracker" />
+
+      <label for="name">Name</label>
+      <input id="name" type="text" name="name" autocomplete="name" required />
+
+      <label for="email">Work email</label>
+      <input id="email" type="email" name="email" autocomplete="email" required />
+
+      <label for="company">Company</label>
+      <input id="company" type="text" name="company" autocomplete="organization" />
+
+      <label for="message">Message</label>
+      <textarea id="message" name="message" rows="4" placeholder="Tell us a bit about what you're looking for."></textarea>
+
+      <button type="submit">Request demo</button>
+    </form>
+
+    <footer class="footer">
+      <p>&copy; 2026 Intracker &middot; <a href="mailto:hello@intracker.com">hello@intracker.com</a></p>
+    </footer>
+  </main>
+</body>
+</html>
